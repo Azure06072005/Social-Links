@@ -1,0 +1,80 @@
+:root {
+  --green-color-dark: #172f4b;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(
+    270deg,
+    #213a57,
+    #1062a5,
+    #14919b,
+    #1c706c,
+    #45dfb1,
+    #80ed99
+  );
+  color: #fff;
+  font-family: "Monsterrat", sans-serif;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.page__container {
+  width: 320px;
+  background-color: var(--green-color-dark);
+  border-radius: 20px;
+  padding: 30px;
+  text-align: center;
+}
+
+.page__avatar {
+  width: 30%;
+  border-radius: 99px;
+}
+
+.page__name {
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 20px 0 10px;
+}
+
+.page__location {
+  display: inline-block;
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+.page__desc {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.navbar__list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.navbar__item {
+  background-color: #314964;
+  border-radius: 10px;
+}
+
+.navbar__link {
+  display: flex;
+  padding: 20px 0;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+}

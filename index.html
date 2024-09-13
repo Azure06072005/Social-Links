@@ -12,6 +12,11 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
     <!-- favicon -->
     <link
       rel="apple-touch-icon"
@@ -91,56 +96,62 @@
     <title>My social links</title>
   </head>
   <body>
-    <div class="page">
-      <div class="page__container">
-        <figure class="page__media">
-          <img
-            src="./assets/img/image (Small).png"
-            alt="avatar"
-            class="page__avatar"
-          />
-        </figure>
-        <div class="page__info">
-          <p class="page__name">Tran Anh Kiet</p>
-          <p class="page__location">Thu Dau Mot, Binh Duong, Vietnam</p>
-          <p class="page__desc">A starter IT engineer</p>
+    <header class="header fixed">
+      <div class="page">
+        <div class="page__container">
+          <figure class="page__media">
+            <img
+              src="./assets/img/image (Small).png"
+              alt="avatar"
+              class="page__avatar"
+            />
+          </figure>
+          <div class="page__info">
+            <p class="page__name">Tran Anh Kiet</p>
+            <p class="page__location">Thu Dau Mot, Binh Duong, Vietnam</p>
+            <p class="page__desc">A starter IT engineer</p>
+          </div>
+          <nav class="navbar">
+            <ul class="navbar__list">
+              <li class="navbar__item">
+                <i class="fa-brands fa-facebook"></i>
+                <a
+                  href="https://www.facebook.com/profile.php?id=100063462536007"
+                  class="navbar__link"
+                  >Facebook</a
+                >
+              </li>
+              <li class="navbar__item">
+                <i class="fa-brands fa-instagram"></i>
+                <a
+                  href="https://www.instagram.com/azure_2005/"
+                  class="navbar__link"
+                  >Instagram</a
+                >
+              </li>
+              <li class="navbar__item">
+                <i class="fa-brands fa-github"></i>
+                <a href="https://github.com/Azure06072005" class="navbar__link"
+                  >GitHub</a
+                >
+              </li>
+              <li class="navbar__item">
+                <i class="fa-brands fa-linkedin-in"></i>
+                <a
+                  href="https://www.linkedin.com/in/ki%E1%BB%87t-tr%E1%BA%A7n-anh-93970a274/"
+                  class="navbar__link"
+                  >LinkedIn</a
+                >
+              </li>
+              <li class="navbar__item">
+                <a href="https://viblo.asia/u/Diogles" class="navbar__link"
+                  >Viblo</a
+                >
+              </li>
+            </ul>
+          </nav>
         </div>
-        <nav class="navbar">
-          <ul class="navbar__list">
-            <li class="navbar__item">
-              <a
-                href="https://www.facebook.com/profile.php?id=100063462536007"
-                class="navbar__link"
-                >Facebook</a
-              >
-            </li>
-            <li class="navbar__item">
-              <a
-                href="https://www.instagram.com/azure_2005/"
-                class="navbar__link"
-                >Instagram</a
-              >
-            </li>
-            <li class="navbar__item">
-              <a href="https://github.com/Azure06072005" class="navbar__link"
-                >GitHub</a
-              >
-            </li>
-            <li class="navbar__item">
-              <a
-                href="https://www.linkedin.com/in/ki%E1%BB%87t-tr%E1%BA%A7n-anh-93970a274/"
-                class="navbar__link"
-                >LinkedIn</a
-              >
-            </li>
-            <li class="navbar__item">
-              <a href="https://viblo.asia/u/Diogles" class="navbar__link"
-                >Viblo</a
-              >
-            </li>
-          </ul>
-        </nav>
       </div>
-    </div>
+    </header>
   </body>
 </html>

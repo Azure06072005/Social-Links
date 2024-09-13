@@ -7,7 +7,21 @@ html {
 }
 
 body {
+  color: #fff;
+  font-family: "Monsterrat", sans-serif;
+  font-size: 1.6rem;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.page {
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: linear-gradient(
     270deg,
     #213a57,
@@ -17,17 +31,6 @@ body {
     #45dfb1,
     #80ed99
   );
-  color: #fff;
-  font-family: "Monsterrat", sans-serif;
-  font-size: 1.6rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-a {
-  text-decoration: none;
-  color: #fff;
 }
 
 .page__container {
@@ -49,6 +52,10 @@ a {
   margin: 20px 0 10px;
 }
 
+.page__name:hover {
+  color: ;
+}
+
 .page__location {
   display: inline-block;
   width: 80%;
@@ -67,14 +74,25 @@ a {
 }
 
 .navbar__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #314964;
   border-radius: 10px;
 }
 
 .navbar__link {
-  display: flex;
   padding: 20px 0;
   font-weight: 600;
-  align-items: center;
-  justify-content: center;
+}
+
+.fa-brands {
+  margin-right: 3%;
+}
+
+/* Responsive */
+@media (max-width: 320px) {
+  .page {
+    width: 280px;
+  }
 }
